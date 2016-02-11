@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions implement caching for machine inversion
 
-## Write a short comment describing this function
+## This function implements setters and getters for initialization of matrix
+## and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function sets the inverse if it's not yet set
 
 cacheSolve <- function(x) {
         ## Return a matrix that is the inverse of 'x'
